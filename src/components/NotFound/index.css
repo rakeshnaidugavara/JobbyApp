@@ -1,0 +1,47 @@
+.not-found-route-container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .not-found-route-container {
+    padding: 50px;
+  }
+}
+
+.not-found-route-image {
+  width: 90%;
+}
+@media (min-width: 768px) {
+  .not-found-route-image {
+    width: 35%;
+  }
+}
+
+.not-found-route-heading {
+  color: #ffffff;
+  font-size: 20px;
+  width: 70%;
+  margin-bottom: 0px;
+}
+@media (min-width: 768px) {
+  .not-found-route-heading {
+    font-size: 40px;
+  }
+}
+
+.not-found-route-description {
+  color: #f1f5f9;
+  font-size: 13px;
+  width: 70%;
+}
+@media (min-width: 768px) {
+  .not-found-route-description {
+    font-size: 16px;
+  }
+}
